@@ -285,7 +285,7 @@ LOOP_START_arout:
     ADD BX, 8        ; Move to the next position
     
     
-    JMP AGAIN_arout
+    JMP AGAIN_arout  ;go and print next number
     
     jmp exit
     
